@@ -2771,6 +2771,13 @@ input, select, textarea {
 				margin: 0;
 			}
 
+			#header > header h1 a{
+				display: flex;
+				margin: 2rem 0 2rem 0;
+				/* justify-content: flex-end;
+				align-self: flex-start; */
+			}
+
 			#header > header p {
 				color: #d2f2e9;
 				font-style: italic;
@@ -2916,7 +2923,10 @@ input, select, textarea {
 				}
 
 				.logo_small > img{
-					width: 100%;
+					width: 5rem;
+					float: left;
+					height: 4rem;
+					margin: .7rem 0 0 0;
 				}
 
 		/* Wrapper */
